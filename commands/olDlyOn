@@ -1,0 +1,16 @@
+#!/usr/bin/python
+
+
+import time;
+import ports;
+import sys;
+
+port = sys.argv[1] 
+
+print(port) 
+
+ports.setPortDelayOn(port)
+
+
+
+print("E000: Success")
